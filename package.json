@@ -1,0 +1,22 @@
+{
+  "name": "deposit_screen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "manh <manh.vu@wax.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "make build-local",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@waxio/waxunit": "^1.1.2",
+    "husky": ">=6",
+    "jest": "^28.1.1",
+    "lint-staged": ">=10",
+    "prettier": "^2.7.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
